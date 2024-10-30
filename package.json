@@ -1,0 +1,26 @@
+{
+    "name": "menace_thakur",
+    "version": "1.0.3",
+    "description": "Menace's portfolio showcasing key projects with a random joke about him on each run.",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "node src/index.js"
+    },
+    "author": "Menace",
+    "license": "MIT",
+    "bin": "src/index.js",
+    "files": [
+        "src/index.js"
+    ],
+    "keywords": [],
+    
+    "devDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Manas-thakur/menace_thakur.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Manas-thakur/menace_thakur/issues"
+    },
+    "homepage": "https://github.com/Manas-thakur/menace_thakur#readme"
+}
