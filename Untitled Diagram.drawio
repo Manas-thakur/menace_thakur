@@ -1,0 +1,111 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="26.0.6">
+  <diagram name="Page-1" id="-ee1jRhpT9f6R2wRzCdM">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Database Servers" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="8" y="87" width="154" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Web Servers" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="226" y="383" width="535" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Load Balancer" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="197" y="8" width="602" height="325" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Firewall" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="835" y="43" width="158" height="129" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Firewall" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="5">
+          <mxGeometry x="43" y="46" width="88" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Internet" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1042" y="33" width="143" height="148" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="Internet" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="7">
+          <mxGeometry x="43" y="46" width="73" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="Load Balancer 1" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="288" y="80" width="144" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="Server 1" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="246" y="254" width="89" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="Server 2" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="385" y="254" width="89" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="Load Balancer 2" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="565" y="80" width="144" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="Server 3" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="523" y="254" width="89" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="Server 4" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="662" y="254" width="89" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="Database 1" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="305" y="408" width="109" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="Database 2" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="583" y="408" width="109" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="HTTPS" style="curved=1;startArrow=none;endArrow=block;exitX=0.38;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="9" target="10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="218" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18" value="HTTPS" style="curved=1;startArrow=none;endArrow=block;exitX=0.62;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="9" target="11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="429" y="218" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19" value="HTTPS" style="curved=1;startArrow=none;endArrow=block;exitX=0.38;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="12" target="13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="568" y="218" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="20" value="HTTPS" style="curved=1;startArrow=none;endArrow=block;exitX=0.62;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="12" target="14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="706" y="218" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="21" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.17;entryY=0;" edge="1" parent="1" source="10" target="15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="383" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.83;entryY=0;" edge="1" parent="1" source="11" target="15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="429" y="383" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.17;entryY=0;" edge="1" parent="1" source="13" target="16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="568" y="383" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="24" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.83;entryY=0;" edge="1" parent="1" source="14" target="16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="706" y="383" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
